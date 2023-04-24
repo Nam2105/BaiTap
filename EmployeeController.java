@@ -316,46 +316,7 @@ public class EmployeeController {
 		 
 		 
 		 
-		 
-//		 public void filterData() {
-////		    String selectedPosition = filteredPositionComboBox.getValue();
-////		    String salaryText = filteredSalaryTextField.getText();
-//			ObservableList<Employee> filteredList = FXCollections.observableArrayList();
-//		    ObservableList<Employee> filteredList2 = FXCollections.observableArrayList();
-//		    ObservableList<Employee> filteredList3 = FXCollections.observableArrayList();
-//		 	String selectedValue = filteredPositionComboBox.getValue();
-//	         if (selectedValue == null || selectedValue.isEmpty() || selectedValue.equals("All") ) { 
-//	             employeeTableView.setItems(employeeList); // hiển thị toàn bộ danh sách
-//	             return;
-//	         } else {
-//	         for (Employee employee : employeeList) {
-//	             if (employee.getPosition().contains(selectedValue)) {
-//	                 filteredList.add(employee); 
-//	             }
-//	         }
-//	         employeeTableView.setItems(filteredList); 
-//	         }
-//		    filteredSalaryTextField.setOnKeyPressed(event -> { // Lọc chức vụ = phím Enter
-//
-//	            if (event.getCode() == KeyCode.ENTER) {
-//	            	 if (filteredSalaryTextField == null || filteredSalaryTextField.getText().isEmpty()) { 
-//	  		             employeeTableView.setItems(filteredList); // hiển thị toàn bộ danh sách
-//	  		             return;
-//	  		         }
-//	  		double filter = Double.parseDouble(filteredSalaryTextField.getText()); // lấy giá trị double từ TextField
-//	  		for (Employee employee : filteredList) {
-//	  			if (employee.getSalaryCoefficient() >= filter ) {
-//	  		      
-//	  		            filteredList2.add(employee); 
-//	  		          }
-//	  		       }
-//	  		         employeeTableView.setItems(filteredList2); 
-//	  		       
-//	  			    
-//	            }
-//	        });
-//		 }
-////		
+		
 		 /**
 		  * xóa nhân viên.
 		  */
